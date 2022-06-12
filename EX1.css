@@ -1,0 +1,86 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  justify-content: center;
+  align-items: center;
+}
+.main > div {
+  margin: 10% 0;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50%;
+}
+.signIn > div {
+  font-size: 20px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.circle:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 2px 2px black;
+}
+
+form {
+  font-size: 13px;
+}
+.register {
+  font-size: 15px;
+  font-weight: bold;
+}
+.register > span {
+  color: crimson;
+  cursor: pointer;
+}
+.form-group {
+  margin-top: 20px;
+}
+.or {
+  position: relative;
+  margin-top: 20px;
+}
+.or:before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: black;
+  left: 30px;
+  top: 50%;
+  position: absolute;
+}
+.or:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: black;
+  right: 30px;
+  top: 50%;
+  position: absolute;
+}
+footer {
+  background-color: #0d6efd;
+  color: white;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+footer > div {
+  margin: 0px 20px;
+}
+footer i {
+  padding: 0px 10px;
+  cursor: pointer;
+}
+footer i:hover {
+  transform: scale(1.2);
+  text-shadow: 2px 2px 2px black;
+}
